@@ -10,7 +10,6 @@ import (
 	"strings"
 )
 
-//
 func runCmd(cmdstring string) {
 	log.Printf("Executing the following command:  \"%v\"\n", cmdstring)
 	parts := strings.Split(cmdstring, " ")
